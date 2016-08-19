@@ -1,5 +1,7 @@
 package nik.test;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Map;
 import java.util.Properties;
 
@@ -27,7 +29,11 @@ public class SystemTest {
 
 
         // Test console()
-        System.console().format()
+        System.out.printf("%x%n", 32);
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy MMM dd HH:mm:ss");
+        Calendar c = Calendar.getInstance();
+        System.out.println(sdf.format(c.getTime()));
 
     }
 }
