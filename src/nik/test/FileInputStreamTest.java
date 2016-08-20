@@ -18,8 +18,8 @@ public class FileInputStreamTest {
 
             fis = new FileInputStream(fileName);
 
-            int i;
-            long l;
+            int i = 0;
+            long l = 0;
 
             i = fis.read();
             System.out.println("First byte: " + i);
