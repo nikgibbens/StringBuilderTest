@@ -166,5 +166,9 @@ public class StringBuilderTest {
 
 
 
+        StringBuilder sb99 = new StringBuilder("               ");
+        StringBuilder sb98 = new StringBuilder();
+        StringBuilder sb97 = new StringBuilder("class");
+
     }
 }

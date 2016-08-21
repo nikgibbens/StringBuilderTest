@@ -13,5 +13,10 @@ public class ByteTest {
         System.out.println(Byte.TYPE);
 
 
+        byte b1 = 113;
+        byte b2 = 126;
+        // byte b3 = b1+b2; // <-- Lost of precision because bytes convert to ints for math
+
+
     }
 }
